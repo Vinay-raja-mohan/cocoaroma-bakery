@@ -14,13 +14,14 @@ export default function HomePage() {
       </header>
 
       <div className={styles.menuGrid}>
-        {cakesData.map(cake => (
+        {cakesData.map((cake, index) => (
           <Link href={`/cake/${cake.id}`} key={cake.id} className={`${styles.cakeCard} ${cake.isBestseller ? styles.bestsellerCard : ''}`}>
             <div className={styles.imageWrapper}>
               <Image 
                 src={cake.images[0]} 
                 alt={cake.name} 
                 fill 
+                priority={index < 4}
                 className={styles.image}
                 sizes="(max-width: 480px) 50vw, 33vw"
               />

@@ -92,18 +92,33 @@ export default function ProductImage({ images, altText }: ProductImageProps) {
       >
         <div 
           className={`${styles.imageSlide} ${isAnimating ? (direction === 'right' ? styles.slideOutLeft : styles.slideOutRight) : styles.slideIn}`}
-          key={currentIndex}
         >
-          <Image 
-            src={images[currentIndex]} 
-            alt={`${altText} - photo ${currentIndex + 1}`} 
-            fill
-            sizes="(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw"
-            priority
-            className={styles.image}
-            draggable={false}
-            onDragStart={(e) => e.preventDefault()}
-          />
+          {images.map((src, index) => (
+            <div 
+              key={src} 
+              style={{
+                position: 'absolute',
+                top: 0,
+                left: 0,
+                right: 0,
+                bottom: 0,
+                opacity: index === currentIndex ? 1 : 0,
+                transition: 'opacity 0.2s ease',
+                pointerEvents: index === currentIndex ? 'auto' : 'none',
+              }}
+            >
+              <Image 
+                src={src} 
+                alt={`${altText} - photo ${index + 1}`} 
+                fill
+                sizes="(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw"
+                priority={index === 0} // Only prioritize the first one, let others preload in background
+                className={styles.image}
+                draggable={false}
+                onDragStart={(e) => e.preventDefault()}
+              />
+            </div>
+          ))}
         </div>
         <div className={styles.vegBadge}>
           <span className={styles.vegDot}></span>
