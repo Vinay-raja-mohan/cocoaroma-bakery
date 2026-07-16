@@ -1,0 +1,63 @@
+.container {
+  padding: 0 20px;
+  margin-bottom: 24px;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--text-dark);
+  margin-bottom: 12px;
+  line-height: 1.2;
+}
+
+.ratingRow {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.ratingInfo {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.ratingNumber {
+  font-weight: 700;
+  font-size: 14px;
+  color: var(--text-dark);
+}
+
+.reviews {
+  font-size: 14px;
+  color: var(--text-muted);
+}
+
+.verticalDivider {
+  width: 1px;
+  height: 14px;
+  background-color: var(--border-color);
+}
+
+.bestsellerBadge {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background-color: var(--highlight-pink-soft);
+  padding: 4px 10px;
+  border-radius: 12px;
+}
+
+.bestsellerText {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text-dark);
+}
+
+.description {
+  font-size: 15px;
+  color: var(--text-muted);
+  line-height: 1.6;
+}

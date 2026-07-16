@@ -1,0 +1,78 @@
+.container {
+  padding: 0 20px;
+  margin-bottom: 28px;
+}
+
+.label {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--text-dark);
+  margin-bottom: 16px;
+}
+
+.cardsContainer {
+  display: flex;
+  gap: 16px;
+}
+
+.card {
+  flex: 1;
+  position: relative;
+  background-color: var(--card-bg);
+  border: 1.5px solid var(--border-color);
+  border-radius: 16px;
+  padding: 16px;
+  text-align: left;
+  transition: all 0.2s ease;
+  box-shadow: var(--shadow-sm);
+}
+
+.cardSelected {
+  border-color: var(--highlight-pink);
+  background-color: rgba(240, 98, 146, 0.03);
+}
+
+.checkBadge {
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cardContent {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.iconContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  background-color: var(--bg-color);
+  border-radius: 12px;
+}
+
+.textInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.weight {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text-dark);
+}
+
+.price {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--text-dark);
+}
