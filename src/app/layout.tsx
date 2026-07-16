@@ -13,7 +13,7 @@ const dancingScript = Dancing_Script({
 });
 
 export const metadata: Metadata = {
-  title: "Sweet Crumbs Bakery",
+  title: "Cocoaroma Bakery",
   description: "A beautiful display of our cakes and pastries.",
 };
 
