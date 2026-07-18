@@ -75,6 +75,35 @@ export const cakesData: Cake[] = [
     ]
   },
   {
+    "id": "pineapple",
+    "name": "Pineapple",
+    "prices": [
+      {
+        "id": "half",
+        "weight": "Half Kg",
+        "price": 420
+      },
+      {
+        "id": "full",
+        "weight": "1 Kg",
+        "price": 800
+      }
+    ],
+    "images": [
+      "/images/11. pineapple/pineapple front angle.png",
+      "/images/11. pineapple/pineapple top angle.png",
+      "/images/11. pineapple/pineapply down angle.png"
+    ],
+    "rating": 4.5,
+    "reviewsCount": 84,
+    "isBestseller": false,
+    "ingredients": [
+      "Fresh Fruits",
+      "Real Fruit Crush",
+      "Fresh Cream"
+    ]
+  },
+  {
     "id": "butterscotch",
     "name": "Butterscotch",
     "prices": [
@@ -94,8 +123,8 @@ export const cakesData: Cake[] = [
       "/images/12. Butterscotch/butterscotch top angle.png",
       "/images/12. Butterscotch/butterscotch down angle.png"
     ],
-    "rating": 4.5,
-    "reviewsCount": 84,
+    "rating": 4.6,
+    "reviewsCount": 101,
     "isBestseller": false,
     "ingredients": [
       "Caramel",
@@ -123,8 +152,8 @@ export const cakesData: Cake[] = [
       "/images/13 - 2  strawberry/strawberry top angle.png",
       "/images/13 - 2  strawberry/strawberry down angle.png"
     ],
-    "rating": 4.6,
-    "reviewsCount": 101,
+    "rating": 4.7,
+    "reviewsCount": 118,
     "isBestseller": false,
     "ingredients": [
       "Fresh Fruits",
@@ -152,8 +181,8 @@ export const cakesData: Cake[] = [
       "/images/13. Butterscotch chocolate/butterscotch chocolate top angle.png",
       "/images/13. Butterscotch chocolate/butterscotch chocolate down angle.png"
     ],
-    "rating": 4.7,
-    "reviewsCount": 118,
+    "rating": 4.8,
+    "reviewsCount": 135,
     "isBestseller": false,
     "ingredients": [
       "Premium Cocoa",
@@ -181,8 +210,8 @@ export const cakesData: Cake[] = [
       "/images/14 -2  white forest/white forest top angle.png",
       "/images/14 -2  white forest/white forest down angle.png"
     ],
-    "rating": 4.8,
-    "reviewsCount": 135,
+    "rating": 4.3,
+    "reviewsCount": 152,
     "isBestseller": false,
     "ingredients": [
       "Vanilla Extract",
@@ -210,8 +239,8 @@ export const cakesData: Cake[] = [
       "/images/14. White chocolate/white chocolate top angle.png",
       "/images/14. White chocolate/white chocolate down angle.png"
     ],
-    "rating": 4.3,
-    "reviewsCount": 152,
+    "rating": 4.4,
+    "reviewsCount": 169,
     "isBestseller": false,
     "ingredients": [
       "Premium Cocoa",
@@ -239,12 +268,41 @@ export const cakesData: Cake[] = [
       "/images/15. kiwi Delight/kiwi delight top angle.png",
       "/images/15. kiwi Delight/kiwi delight down angle.png"
     ],
-    "rating": 4.4,
-    "reviewsCount": 169,
+    "rating": 4.5,
+    "reviewsCount": 186,
     "isBestseller": false,
     "ingredients": [
       "Fresh Fruits",
       "Real Fruit Crush",
+      "Fresh Cream"
+    ]
+  },
+  {
+    "id": "all-topped-chocolate-misssing",
+    "name": "All Topped Chocolate - Misssing",
+    "prices": [
+      {
+        "id": "half",
+        "weight": "Half Kg",
+        "price": 500
+      },
+      {
+        "id": "full",
+        "weight": "1 Kg",
+        "price": 1000
+      }
+    ],
+    "images": [
+      "/images/16. all topped chocolate - misssing/undefined",
+      "/images/16. all topped chocolate - misssing/undefined",
+      "/images/16. all topped chocolate - misssing/undefined"
+    ],
+    "rating": 4.6,
+    "reviewsCount": 53,
+    "isBestseller": false,
+    "ingredients": [
+      "Premium Cocoa",
+      "Dark Chocolate",
       "Fresh Cream"
     ]
   },
@@ -268,8 +326,37 @@ export const cakesData: Cake[] = [
       "/images/17.  Royale truffle/royale truffle top angle.png",
       "/images/17.  Royale truffle/royale truffle down angle.png"
     ],
-    "rating": 4.6,
-    "reviewsCount": 53,
+    "rating": 4.7,
+    "reviewsCount": 70,
+    "isBestseller": false,
+    "ingredients": [
+      "Premium Cocoa",
+      "Dark Chocolate",
+      "Fresh Cream"
+    ]
+  },
+  {
+    "id": "belgium-chocolate",
+    "name": "Belgium Chocolate",
+    "prices": [
+      {
+        "id": "half",
+        "weight": "Half Kg",
+        "price": 650
+      },
+      {
+        "id": "full",
+        "weight": "1 Kg",
+        "price": 1100
+      }
+    ],
+    "images": [
+      "/images/18. belgium chocolate/belgium chocolate front angle.png",
+      "/images/18. belgium chocolate/belgium chocolate top angle.png",
+      "/images/18. belgium chocolate/belgium chocolate down angle.png"
+    ],
+    "rating": 4.8,
+    "reviewsCount": 87,
     "isBestseller": false,
     "ingredients": [
       "Premium Cocoa",
@@ -297,8 +384,8 @@ export const cakesData: Cake[] = [
       "/images/2. Almond chocolate/almond chocolate top angle.png",
       "/images/2. Almond chocolate/almond chocolate down angle.png"
     ],
-    "rating": 4.7,
-    "reviewsCount": 70,
+    "rating": 4.3,
+    "reviewsCount": 104,
     "isBestseller": false,
     "ingredients": [
       "Premium Cocoa",
@@ -326,8 +413,8 @@ export const cakesData: Cake[] = [
       "/images/21. ferrero rocher/ferarro rocher top angle.png",
       "/images/21. ferrero rocher/ferraro rocher down angle.png"
     ],
-    "rating": 4.8,
-    "reviewsCount": 87,
+    "rating": 4.4,
+    "reviewsCount": 121,
     "isBestseller": false,
     "ingredients": [
       "Roasted Nuts",
@@ -355,8 +442,8 @@ export const cakesData: Cake[] = [
       "/images/22. rabdi pista almond/rabadi pista almond top angle.png",
       "/images/22. rabdi pista almond/rabadi pista almond down angle.png"
     ],
-    "rating": 4.3,
-    "reviewsCount": 104,
+    "rating": 4.5,
+    "reviewsCount": 138,
     "isBestseller": true,
     "ingredients": [
       "Rich Rabdi",
@@ -384,8 +471,8 @@ export const cakesData: Cake[] = [
       "/images/24. rasagulla/rasagulla top angle.png",
       "/images/24. rasagulla/rasagulla down angle.png"
     ],
-    "rating": 4.4,
-    "reviewsCount": 121,
+    "rating": 4.6,
+    "reviewsCount": 155,
     "isBestseller": true,
     "ingredients": [
       "Rich Rabdi",
@@ -413,8 +500,8 @@ export const cakesData: Cake[] = [
       "/images/25. rasmalai/rasamalai top angle .png",
       "/images/25. rasmalai/rasamalai down angle.png"
     ],
-    "rating": 4.5,
-    "reviewsCount": 138,
+    "rating": 4.7,
+    "reviewsCount": 172,
     "isBestseller": true,
     "ingredients": [
       "Rich Rabdi",
@@ -442,8 +529,8 @@ export const cakesData: Cake[] = [
       "/images/26. red velvet/red velvet top angle.png",
       "/images/26. red velvet/red velvet down angle.png"
     ],
-    "rating": 4.6,
-    "reviewsCount": 155,
+    "rating": 4.8,
+    "reviewsCount": 189,
     "isBestseller": true,
     "ingredients": [
       "Cream Cheese",
@@ -471,8 +558,8 @@ export const cakesData: Cake[] = [
       "/images/27. beloved/beloved top angle.png",
       "/images/27. beloved/beloved down angle.png"
     ],
-    "rating": 4.7,
-    "reviewsCount": 172,
+    "rating": 4.3,
+    "reviewsCount": 56,
     "isBestseller": false,
     "ingredients": [
       "Vanilla Extract",
@@ -500,12 +587,41 @@ export const cakesData: Cake[] = [
       "/images/28. sweet heart/sweet heart top angle.png",
       "/images/28. sweet heart/sweet heart down angle.png"
     ],
-    "rating": 4.8,
-    "reviewsCount": 189,
+    "rating": 4.4,
+    "reviewsCount": 73,
     "isBestseller": false,
     "ingredients": [
       "Vanilla Extract",
       "Soft Sponge",
+      "Fresh Cream"
+    ]
+  },
+  {
+    "id": "choco-praline",
+    "name": "Choco Praline",
+    "prices": [
+      {
+        "id": "half",
+        "weight": "Half Kg",
+        "price": 600
+      },
+      {
+        "id": "full",
+        "weight": "1 Kg",
+        "price": 1050
+      }
+    ],
+    "images": [
+      "/images/29. choco praline/praline front angle.png",
+      "/images/29. choco praline/praline top angle.png",
+      "/images/29. choco praline/praline down anlge.png"
+    ],
+    "rating": 4.5,
+    "reviewsCount": 90,
+    "isBestseller": false,
+    "ingredients": [
+      "Premium Cocoa",
+      "Dark Chocolate",
       "Fresh Cream"
     ]
   },
@@ -529,12 +645,186 @@ export const cakesData: Cake[] = [
       "/images/3. Cappuccino chocolate/Cappuccino chocolate top angle.png",
       "/images/3. Cappuccino chocolate/Cappuccino chocolate down angle.png"
     ],
-    "rating": 4.3,
-    "reviewsCount": 56,
+    "rating": 4.6,
+    "reviewsCount": 107,
     "isBestseller": false,
     "ingredients": [
       "Premium Cocoa",
       "Dark Chocolate",
+      "Fresh Cream"
+    ]
+  },
+  {
+    "id": "loaded-roacher",
+    "name": "Loaded Roacher",
+    "prices": [
+      {
+        "id": "half",
+        "weight": "Half Kg",
+        "price": 600
+      },
+      {
+        "id": "full",
+        "weight": "1 Kg",
+        "price": 1100
+      }
+    ],
+    "images": [
+      "/images/32. loaded roacher/loaded roacher front angle.png",
+      "/images/32. loaded roacher/loaded roacher top angle.png",
+      "/images/32. loaded roacher/loaded roacher down angle.png"
+    ],
+    "rating": 4.7,
+    "reviewsCount": 124,
+    "isBestseller": false,
+    "ingredients": [
+      "Vanilla Extract",
+      "Soft Sponge",
+      "Fresh Cream"
+    ]
+  },
+  {
+    "id": "choco-cream",
+    "name": "Choco Cream",
+    "prices": [
+      {
+        "id": "half",
+        "weight": "Half Kg",
+        "price": 530
+      },
+      {
+        "id": "full",
+        "weight": "1 Kg",
+        "price": 950
+      }
+    ],
+    "images": [
+      "/images/33. Choco cream/choco cream front angle.png",
+      "/images/33. Choco cream/choco cream top angle.png",
+      "/images/33. Choco cream/choco cream down angle.png"
+    ],
+    "rating": 4.8,
+    "reviewsCount": 141,
+    "isBestseller": false,
+    "ingredients": [
+      "Premium Cocoa",
+      "Dark Chocolate",
+      "Fresh Cream"
+    ]
+  },
+  {
+    "id": "white-willow",
+    "name": "White Willow",
+    "prices": [
+      {
+        "id": "half",
+        "weight": "Half Kg",
+        "price": 550
+      },
+      {
+        "id": "full",
+        "weight": "1 Kg",
+        "price": 1000
+      }
+    ],
+    "images": [
+      "/images/34. white willow/white willow front angle.png",
+      "/images/34. white willow/white willow top angle.png",
+      "/images/34. white willow/white willow down angle.png"
+    ],
+    "rating": 4.3,
+    "reviewsCount": 158,
+    "isBestseller": false,
+    "ingredients": [
+      "Vanilla Extract",
+      "Soft Sponge",
+      "Fresh Cream"
+    ]
+  },
+  {
+    "id": "magic-moments",
+    "name": "Magic Moments",
+    "prices": [
+      {
+        "id": "half",
+        "weight": "Half Kg",
+        "price": 600
+      },
+      {
+        "id": "full",
+        "weight": "1 Kg",
+        "price": 1050
+      }
+    ],
+    "images": [
+      "/images/35. magic moments/magic moments front angle.png",
+      "/images/35. magic moments/magic moments top angle.png",
+      "/images/35. magic moments/magic moments down angle.png"
+    ],
+    "rating": 4.4,
+    "reviewsCount": 175,
+    "isBestseller": false,
+    "ingredients": [
+      "Vanilla Extract",
+      "Soft Sponge",
+      "Fresh Cream"
+    ]
+  },
+  {
+    "id": "oreo-chocolate",
+    "name": "Oreo Chocolate",
+    "prices": [
+      {
+        "id": "half",
+        "weight": "Half Kg",
+        "price": 600
+      },
+      {
+        "id": "full",
+        "weight": "1 Kg",
+        "price": 1050
+      }
+    ],
+    "images": [
+      "/images/36. oreo chocolate/oreo chocolate front angle.png",
+      "/images/36. oreo chocolate/oreo chocolate top angle.png",
+      "/images/36. oreo chocolate/oreo chocolate down angle.png"
+    ],
+    "rating": 4.5,
+    "reviewsCount": 192,
+    "isBestseller": false,
+    "ingredients": [
+      "Premium Cocoa",
+      "Dark Chocolate",
+      "Fresh Cream"
+    ]
+  },
+  {
+    "id": "honey-almond",
+    "name": "Honey Almond",
+    "prices": [
+      {
+        "id": "half",
+        "weight": "Half Kg",
+        "price": 600
+      },
+      {
+        "id": "full",
+        "weight": "1 Kg",
+        "price": 1050
+      }
+    ],
+    "images": [
+      "/images/37. honey almond/honey almond front angle.png",
+      "/images/37. honey almond/honey almond top angle.png",
+      "/images/37. honey almond/honey almond down angle.png"
+    ],
+    "rating": 4.6,
+    "reviewsCount": 59,
+    "isBestseller": false,
+    "ingredients": [
+      "Roasted Nuts",
+      "Premium Dry Fruits",
       "Fresh Cream"
     ]
   },
@@ -558,8 +848,8 @@ export const cakesData: Cake[] = [
       "/images/4. Choco chip/Choco chip top angle.png",
       "/images/4. Choco chip/Choco chip down angle.png"
     ],
-    "rating": 4.4,
-    "reviewsCount": 73,
+    "rating": 4.7,
+    "reviewsCount": 76,
     "isBestseller": false,
     "ingredients": [
       "Premium Cocoa",
@@ -587,8 +877,8 @@ export const cakesData: Cake[] = [
       "/images/5. Choco vanilla/choco vanilla top angle.png",
       "/images/5. Choco vanilla/choco vanilla top angle.png"
     ],
-    "rating": 4.5,
-    "reviewsCount": 90,
+    "rating": 4.8,
+    "reviewsCount": 93,
     "isBestseller": false,
     "ingredients": [
       "Premium Cocoa",
@@ -616,8 +906,8 @@ export const cakesData: Cake[] = [
       "/images/6. chocolate loaded/chocolate loaded top angle.png",
       "/images/6. chocolate loaded/chocolate loaded down angle.png"
     ],
-    "rating": 4.6,
-    "reviewsCount": 107,
+    "rating": 4.3,
+    "reviewsCount": 110,
     "isBestseller": false,
     "ingredients": [
       "Premium Cocoa",
@@ -645,8 +935,8 @@ export const cakesData: Cake[] = [
       "/images/7. Chocolate loaded butter cream/chocolate loaded butter cream top angle.png",
       "/images/7. Chocolate loaded butter cream/chocolate loaded butter cream down angle.png"
     ],
-    "rating": 4.7,
-    "reviewsCount": 124,
+    "rating": 4.4,
+    "reviewsCount": 127,
     "isBestseller": false,
     "ingredients": [
       "Premium Cocoa",
@@ -674,12 +964,41 @@ export const cakesData: Cake[] = [
       "/images/9. Tiramisu/tiramisu top angle.png",
       "/images/9. Tiramisu/tiramisu down angle.png"
     ],
-    "rating": 4.8,
-    "reviewsCount": 141,
+    "rating": 4.5,
+    "reviewsCount": 144,
     "isBestseller": false,
     "ingredients": [
       "Premium Cocoa",
       "Dark Chocolate",
+      "Fresh Cream"
+    ]
+  },
+  {
+    "id": "logo",
+    "name": "Logo",
+    "prices": [
+      {
+        "id": "half",
+        "weight": "Half Kg",
+        "price": 500
+      },
+      {
+        "id": "full",
+        "weight": "1 Kg",
+        "price": 1000
+      }
+    ],
+    "images": [
+      "/images/Logo/real logo.jpg",
+      "/images/Logo/real logo.jpg",
+      "/images/Logo/real logo.jpg"
+    ],
+    "rating": 4.6,
+    "reviewsCount": 161,
+    "isBestseller": false,
+    "ingredients": [
+      "Vanilla Extract",
+      "Soft Sponge",
       "Fresh Cream"
     ]
   }

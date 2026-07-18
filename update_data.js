@@ -24,7 +24,16 @@ const prices = {
   "rasmalai": { small: 700, large: 1300 },
   "red velvet": { small: 550, large: 1030 },
   "beloved": { small: 1300, large: 1500 },
-  "sweet heart": { small: 1300, large: 1500 }
+  "sweet heart": { small: 1300, large: 1500 },
+  "pineapple": { small: 420, large: 800 },
+  "belgium chocolate": { small: 650, large: 1100 },
+  "choco praline": { small: 600, large: 1050 },
+  "Choco cream": { small: 530, large: 950 },
+  "white willow": { small: 550, large: 1000 },
+  "magic moments": { small: 600, large: 1050 },
+  "oreo chocolate": { small: 600, large: 1050 },
+  "honey almond": { small: 600, large: 1050 },
+  "loaded roacher": { small: 600, large: 1100 }
 };
 
 const bestsellers = ['rabdi pista almond', 'rasagulla', 'rasmalai', 'red velvet'];
