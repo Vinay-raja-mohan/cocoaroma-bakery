@@ -30,7 +30,7 @@ const prices = {
   "choco praline": { small: 600, large: 1050 },
   "Choco cream": { small: 530, large: 950 },
   "white willow": { small: 550, large: 1000 },
-  "magic moments": { small: 600, large: 1050 },
+  "magic moment": { small: 600, large: 1050 },
   "oreo chocolate": { small: 600, large: 1050 },
   "honey almond": { small: 600, large: 1050 },
   "loaded roacher": { small: 600, large: 1100 }
@@ -66,12 +66,22 @@ const getIngredients = (name) => {
 
 const imagesDir = path.join(__dirname, 'public/images');
 const folders = fs.readdirSync(imagesDir, { withFileTypes: true })
-  .filter(dirent => dirent.isDirectory() && !dirent.name.toLowerCase().includes('missing'))
+  .filter(dirent => {
+    if (!dirent.isDirectory()) return false;
+    const name = dirent.name.toLowerCase();
+    if (name.includes('missing') || name.includes('misssing')) return false;
+    if (name.includes('logo') || name.includes('all topped chocolate')) return false;
+    return true;
+  })
   .map(dirent => dirent.name);
 
 const cakes = folders.map((folder, index) => {
   const match = folder.match(/^\d+(?:\s*-\s*\d+)?\.?\s*(.+)$/i);
   let nameKey = match ? match[1].trim() : folder;
+  
+  if (nameKey.toLowerCase() === 'magic moments') {
+    nameKey = 'Magic Moment';
+  }
   
   const lookupKey = Object.keys(prices).find(k => k.toLowerCase() === nameKey.toLowerCase());
   const priceData = prices[lookupKey] || { small: 500, large: 1000 };
